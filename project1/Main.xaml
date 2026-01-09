@@ -113,7 +113,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <ueab:FindReplaceValueX ReplaceWith="{x:Null}" DisplayName="Find/Replace Value" FoundAt="[result]" sap:VirtualizedContainerService.HintSize="433.6,268.8" sap2010:WorkflowViewState.IdRef="FindReplaceValueX_1" LookIn="Values" Operation="Find" ValueToFind="[&quot;abcg&quot;]" WhereToSearch="[Excel.Sheet(&quot;Sheet1&quot;)]" />
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;result - &quot; + result]" />
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box " sap:VirtualizedContainerService.HintSize="433.6,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;result - &quot; + result]" />
           </Sequence>
         </ActivityAction>
       </ueab:ExcelApplicationCard.Body>
